@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cobra</title>
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <script type="module" defer src="main.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <div class="cobra-controls">
+        <button id="start-cobra">start</button>
+        <button id="stop-cobra">stop</button>
+      </div>
+      <div class="cobra-info">
+        <p>Cobra length: <b></b></p>
+      </div>
+      <div class="cobra-modal">
+        <div class="modal-content">
+          <p>Game over</p>
+          <p>Your cobra length: <b></b></p>
+          <button id="play-cobra-again">Play again</button>
+        </div>
+      </div>
+      <canvas id="cobra-game" width="500" height="500"></canvas>
+    </main>
+  </body>
+</html>
